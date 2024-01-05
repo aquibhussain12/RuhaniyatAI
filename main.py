@@ -4,7 +4,7 @@ from langchain.llms import OpenAI
 from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
 from langchain.memory import ConversationBufferMemory
-apikey = st.secrets["API_KEY"]
+apikey = st.secrets["OPENAI_API_KEY"]
 
 # App UI framework
 favicon = Image.open("assets/favicon.ico")
