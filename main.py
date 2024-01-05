@@ -19,7 +19,7 @@ st.set_page_config(
 # Title and Subheader
 # Change the title color
 st.markdown("""<header  style='background-color:#009000;'>
-<h1>RuhaniyatAI - Your Personal Spiritual Companion </h1>
+<h1 style='color:white;'>RuhaniyatAI - Your Personal Spiritual Companion </h1>
 </header>""",
 unsafe_allow_html=True)
 
