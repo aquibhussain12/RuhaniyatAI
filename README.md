@@ -1,4 +1,4 @@
-# RuhaniyatAI
+#RuhaniyatAI:https://ruhaniyat.streamlit.app/
 RuhaniyatAI: Your spiritual companion. Share your feelings, receive personalized wisdom inspired by the Quran and Hadith. Embark on a journey of self-discovery and serenity.
 RuhaniyatAI
 RuhaniyatAI is your personal spiritual companion, harnessing the power of AI to provide tailored insights inspired by the Quran and Hadith. Explore the depths of self-discovery and enlightenment by expressing your emotions and receiving uplifting messages from RuhaniyatAI.
