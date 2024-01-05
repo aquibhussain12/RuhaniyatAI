@@ -47,7 +47,7 @@ title_memory = ConversationBufferMemory(input_key='keywords', memory_key='chat_h
 wisdom_memory = ConversationBufferMemory(input_key='keywords', memory_key='chat_history')
 
 # Llms
-llm = OpenAI(model_name="text-davinci-003", temperature=0.9)
+llm = OpenAI(model_name="gpt-3.5-turbo", temperature=0.7)
 title_chain = LLMChain(llm=llm, prompt=title_template, verbose=True, output_key='title', memory=title_memory)
 wisdom_chain = LLMChain(llm=llm, prompt=wisdom_template, verbose=True, output_key='script', memory=wisdom_memory)
 
