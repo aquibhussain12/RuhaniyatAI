@@ -13,8 +13,7 @@ Features
 Tech Stack
 Language: Python
 AI Model: gpt3.5
-Connect with Us
-Follow us on Twitter for updates and inspiration.
+Connect with Us (https://twitter.com/AquibG1?t=UQlKWtQKEqYneDmph_FHcQ&s=09)
 Acknowledgements
 Special thanks to the insightful tutorial on FreeCodeCamp, which served as a guiding light in the development of RuhaniyatAI. Gratitude for the step-by-step instructions that shaped this project. 🙏🚀
 
