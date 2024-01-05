@@ -79,7 +79,7 @@ st.markdown("<hr style='border: 2px solid #2c3e50;'>", unsafe_allow_html=True)
 # Footer
 footer_html = """
     <div style="padding: 10px; background-color:#00BF00; left:0; position:static; bottom: 0; width: 100%; text-align:center; justify-content:center; margin-top:20px;">
-        <p style="color: white;">Built with ❤️ by<a href="https://twitter.com/AquibG1?t=UQlKWtQKEqYneDmph_FHcQ&s=09" style="color: white;">Aquib Hussain</a></p>
+        <p style="color: white;">Built with ❤️ by <a href="https://twitter.com/AquibG1?t=UQlKWtQKEqYneDmph_FHcQ&s=09" style="color: white;">Aquib Hussain</a></p>
     </div>
 """
 
