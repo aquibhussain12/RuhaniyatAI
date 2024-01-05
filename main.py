@@ -18,7 +18,7 @@ st.set_page_config(
 
 # Title and Subheader
 # Change the title color
-st.markdown("<header style='color: #3498db; background-color:yellow;'><h1>RuhaniyatAI - Your Personal Spiritual Companion</h1></header>", unsafe_allow_html=True)
+st.markdown("<header style='color: #3498db; background-color:yellow;'>RuhaniyatAI - Your Personal Spiritual Companion</header>", unsafe_allow_html=True)
 
 st.subheader(
     ' Welcome to RuhaniyatAI: Your Personal Spiritual Companion! \nDiscover spiritual insights and guidance tailored just for you. RuhaniyatAI is here to accompany you on your journey of self-discovery and reflection.\nShare your emotions, and let our advanced AI provide you with uplifting messages inspired by the divine wisdom of Quran and Hadith.'
