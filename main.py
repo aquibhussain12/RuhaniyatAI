@@ -27,7 +27,7 @@ st.subheader(
     ' Welcome to RuhaniyatAI: Your Personal Spiritual Companion! \nDiscover spiritual insights and guidance tailored just for you. RuhaniyatAI is here to accompany you on your journey of self-discovery and reflection.\nShare your emotions, and let our advanced AI provide you with uplifting messages inspired by the divine wisdom of Quran and Hadith.'
 )
 st.markdown("<hr style='border: 2px solid #2c3e50;'>", unsafe_allow_html=True)
-st.markdown("<h2>Express your emotions, and let the verses of the Quran and the wisdom of Hadith resonate with your soul. Share your thoughts below.</h2>",unsafe_allow_html=True)
+st.markdown("<h2><i>Express your emotions, and let the verses of the Quran and the wisdom of Hadith resonate with your soul. Share your thoughts below.</i></h2>",unsafe_allow_html=True)
 # Text Input for Keywords
 keywords = st.text_input("Enter Here:")
 st.markdown("<hr style='border: 2px solid #2c3e50;'>", unsafe_allow_html=True)
