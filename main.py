@@ -33,7 +33,7 @@ keywords = st.text_input("Enter Here:")
 st.markdown("<hr style='border: 2px solid #2c3e50;'>", unsafe_allow_html=True)
 
 # Prompt templates
-prompt_template = f'generate a paragraph from Quran or hadith giving me an islamic reminder based on this sentence: {keywords}' if keywords else ''
+prompt_template = f'generate a paragraph from Quran or hadith giving me an islamic reminder based on this sentence and if the keywords are out of context plz answer that the querrry is out of context and Quran hadith doesnt provide answer to these queries: {keywords}' if keywords else ''
 
 title_template = PromptTemplate(
     input_variables=['keywords'],
@@ -42,7 +42,7 @@ title_template = PromptTemplate(
 
 wisdom_template = PromptTemplate(
     input_variables=['keywords'],
-    template='generate a paragraph from Quran or hadith giving me an islamic reminder based on this sentence: {keywords}'
+    template='generate a paragraph from Quran or hadith giving me an islamic reminder based on this sentence and if the keywords are out of context plz answer that the querrry is out of context and Quran hadith doesnt provide answer to these queries: {keywords}'
 )
 
 # Memory
